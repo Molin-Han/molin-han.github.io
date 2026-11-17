@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Research projects, from my PhD back to undergraduate research.
 nav: true

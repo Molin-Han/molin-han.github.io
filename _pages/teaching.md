@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Teaching at Imperial College London and before.
 nav: true
 nav_order: 4

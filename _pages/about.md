@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD student in computational mathematics, <a href='https://www.imperial.ac.uk/mathematics/'>Department of Mathematics</a>, <a href='https://www.imperial.ac.uk/'>Imperial College London</a>
 
 profile:
   align: right
-  image: prof_pic.jpg # replace assets/img/prof_pic.jpg with your own photo
+  image: Molin_Han_6.jpg # replace assets/img/prof_pic.jpg with your own photo
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Mathematics</p>
@@ -31,6 +31,6 @@ My research is on fast, robust solvers for implicit time stepping in ocean and a
 
 Before the PhD I took an MSci in Mathematics at Imperial with First Class Honours. Along the way I worked on parallel-in-time preconditioning for optimal control of the wave equation, matrix-free solvers for thermoacoustic stability analysis at the Technical University of Munich, and bounded discontinuous Galerkin transport for atmospheric flows.
 
-**Research interests:** finite element methods, numerical linear algebra and preconditioning, geophysical fluid dynamics, high-performance computing.
+**Research interests:** finite element methods, numerical linear algebra and preconditioning, geophysical fluid dynamics, high-performance computing, geometric mechanics and geotechnical engineering.
 
-Outside research I enjoy hiking, tennis, astrophotography and calligraphy.
+Outside research I enjoy hiking, tennis, cycling, astrophotography and calligraphy.
