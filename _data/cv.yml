@@ -1,0 +1,182 @@
+cv:
+  name: Molin Han
+  label: PhD student in computational mathematics
+  email: molin.han20@imperial.ac.uk
+  website: https://molin-han.github.io
+  summary: Third-year PhD student in computational mathematics at Imperial College London, developing finite element discretisations and robust iterative solvers for geophysical fluid dynamics, implemented as parallel code in Firedrake and PETSc. Research interests include finite element methods, fluid dynamics, numerical linear algebra and high-performance computing.
+
+  social_networks:
+    - network: GitHub
+      username: Molin-Han
+    - network: LinkedIn
+      username: molin-han
+    - network: ORCID
+      username: 0009-0005-2172-6374
+
+  address:
+    city: London
+    region: United Kingdom
+
+  sections:
+    Education:
+      - institution: Imperial College London
+        location: London, UK
+        area: Mathematics
+        studyType: PhD in Mathematics
+        start_date: "2024-10"
+        highlights:
+          - "Research area: mixed finite element methods and preconditioners in numerical linear algebra, applied to ocean modelling. Supervisor: Prof. Colin Cotter."
+          - President's PhD Scholarship; aligned with the EPSRC CDT in Mathematics for our Future Climate.
+          - Expected completion in 2028.
+
+      - institution: Imperial College London
+        location: London, UK
+        area: Mathematics
+        studyType: MSci in Mathematics, First Class Honours (85.7%)
+        start_date: "2020-10"
+        end_date: "2024-06"
+        highlights:
+          - Dean's List in all four years (top 5% of the cohort in Year 1, top 10% in Years 2 and 3).
+          - "Computational and applied modules: Finite Elements (91%), Computational Linear Algebra (88%), Computational PDEs (78%), Fluid Dynamics 1 (90%) and 2 (80%), Classical Dynamics (100%), Optimisation (80%)."
+          - "Probability and statistics modules: Stochastic Calculus and Applications to Nonlinear Filtering (95%), Introduction to SDEs and Diffusion Processes (92%), Stochastic Simulation (88%), Statistical Learning (79%)."
+
+    Experience:
+      - company: Department of Mathematics, Imperial College London
+        position: "PhD research: robust finite element solvers for ocean models"
+        location: London, UK
+        start_date: "2024-10"
+        highlights:
+          - Designing preconditioners for implicit time stepping in ocean and atmosphere models, where every time step requires the solution of a large, ill-conditioned linear system and anisotropic meshes on thin domains defeat standard point smoothers.
+          - "Developed a patch-wise preconditioner for mixed Poisson-type systems: a shift eliminates the pressure, leaving a grad-div Helmholtz-type problem solved by multigrid with additive Schwarz line smoothers."
+          - Extended the method to the fully nonlinear incompressible Boussinesq equations on a vertical slice, using a shifted auxiliary operator and multigrid with vertical vertex-patch line smoothers; the shift is set by a bound derived from the system linearised about a state of rest.
+          - Iteration counts are robust to aspect ratio and mesh spacing, with shorter solve times than standard methods; validated on the Skamarock–Klemp gravity-wave test case in parallel MPI runs on an HPC cluster.
+          - "Implemented in Firedrake, PETSc and Irksome; contributed to Firedrake's additive Schwarz patch preconditioners (PR #5211). Now extending the solver to the Lagrangian-averaged Boussinesq (alpha) model and to three dimensions."
+
+      - company: Department of Mathematics, Imperial College London
+        position: Graduate Teaching Assistant
+        location: London, UK
+        date: "2026"
+        summary: Year 2 Multivariable Calculus (Term 1) and Linear Algebra (Term 2).
+
+      - company: Imperial College London
+        position: MSci research project
+        location: London, UK
+        start_date: "2023-10"
+        end_date: "2024-06"
+        summary: "*Time-parallel solution of optimal control problems for the wave equation.* Supervisor: Prof. Colin Cotter."
+        highlights:
+          - Finite element formulation of the optimal control problem for the wave equation, solved with ParaDiag, a diagonalisation-based parallel-in-time method.
+
+      - company: TUM PREP, Technical University of Munich
+        position: Visiting research student
+        location: Munich, Germany
+        start_date: "2023-07"
+        end_date: "2023-09"
+        summary: "*Matrix-free iterative solver in thermo-acoustic stability analysis.* Supervisors: Prof. Wolfgang Polifke and Philipp Brokof, Mechanical Engineering."
+        highlights:
+          - Implemented matrix-free versions of a Newton solver and an eigenvalue solver.
+          - Analysed the influence of condition numbers on the performance of GMRES for heat equations and the nonlinear Navier–Stokes equations in thermoacoustics.
+          - Presented the results in a twenty-minute talk to the research group.
+
+      - company: Imperial College London
+        position: Undergraduate research (UROP)
+        location: London, UK
+        start_date: "2022-06"
+        end_date: "2022-09"
+        summary: "*Conservative bounded discontinuous Galerkin transport for atmospheric flows.* Supervisor: Prof. Colin Cotter."
+        highlights:
+          - Built and simulated transport equations with compressible flow in Firedrake.
+          - Implemented a hierarchical flux limiter that keeps the advected solutions bounded.
+
+      - company: Imperial College London
+        position: Second-year group project
+        location: London, UK
+        start_date: "2022-05"
+        end_date: "2022-06"
+        summary: "*Homogenisation.* Supervisor: Dr Arianna Giunti."
+        highlights:
+          - Worked in a group of six on a report on homogenisation theory for PDE problems, including boundary layers and porous media; wrote the section on multidimensional periodic homogenisation and presented the results to peers and tutors.
+
+      - company: Civil Engineering, Tianjin University
+        position: Undergraduate research
+        location: Tianjin, China
+        start_date: "2021-07"
+        end_date: "2022-03"
+        summary: "Two projects in offshore geotechnics. Supervisor: Prof. Sa Li."
+        highlights:
+          - Implemented support vector regression and particle swarm optimisation in MATLAB to model the mechanical behaviour of carbonate gravel.
+          - Contributed Monte Carlo simulations of the maximum inclination angle of a large tubular caisson.
+          - The collaboration led to two co-authored journal papers.
+
+    Volunteer:
+      - company: Yunzhou International School
+        position: Volunteer teaching assistant
+        location: Tianjin, China
+        start_date: "2019-06"
+        end_date: "2020-06"
+        summary: Tutored junior students in A-level Mathematics and Physics; prepared lessons, marked mock exam papers and ran classes.
+
+    Publications:
+      - title: Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning
+        publisher: In preparation
+        releaseDate: "2026"
+        summary: "**M. Han**, C. J. Cotter and J. Hope-Collins."
+
+      - title: Simulation of mechanical behavior of carbonate gravel with hybrid PSO–SVR algorithm
+        publisher: Marine Georesources & Geotechnology 41(4), 446–459
+        releaseDate: "2023"
+        url: https://doi.org/10.1080/1064119X.2022.2057261
+        summary: "Q. Liu, S. Li, J. Yin, T. Li and **M. Han**."
+
+      - title: Installation design of a large tubular caisson in the spatially varying seabed
+        publisher: Ocean Engineering 246, 110626
+        releaseDate: "2022"
+        summary: "Y. Zhang, S. Li, H. Li, K. Li and **M. Han**."
+
+    Talks:
+      - bullet: "**ICOSAHOM 2027**, Politecnico di Milano, July 2027. Mini-symposium talk (upcoming)."
+      - bullet: "**SciCADE 2026**, Edinburgh, July 2026. *Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning.* Co-organised the mini-symposium *Iterative solution of implicit time stepping methods for PDEs* with Prof. Colin Cotter and chaired its second half."
+      - bullet: "**PETSc Annual User Meeting and Firedrake '26**, Oxford, June 2026. *Robust preconditioning for the Boussinesq equations through patch-wise multigrid smoother.*"
+      - bullet: "**Firedrake '25**, Leeds, September 2025. *A robust patch-wise preconditioner for mixed Poisson equations.*"
+      - bullet: "**PinT 2025**, 14th Workshop on Parallel-in-Time Integration, ICMS Edinburgh, July 2025. Participant."
+
+    Awards:
+      - title: President's PhD Scholarship
+        date: "2024–28"
+        awarder: Imperial College London
+        summary: Competitive college-wide scheme.
+
+      - title: Dean's List
+        date: "2021–24"
+        awarder: Imperial College London
+        summary: In all four years of the MSci.
+
+      - title: TUM PREP scholarship (£4,000)
+        date: "2023"
+        awarder: Turing Scheme and Bavarian State Ministry of Education, Science and the Arts
+
+      - title: UROP bursary (£1,250)
+        date: "2022"
+        awarder: Department of Mathematics, Imperial College London
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, MATLAB, Julia; Git, LaTeX"
+
+      - name: Software
+        icon: fa-solid fa-server
+        keywords: "Firedrake, PETSc, FEniCS, Irksome; MPI-parallel simulation on HPC clusters"
+
+      - name: Methods
+        icon: fa-solid fa-square-root-variable
+        keywords: "Mixed and discontinuous Galerkin finite elements; multigrid, Schwarz and Schur-complement preconditioners; Krylov and matrix-free solvers; implicit and parallel-in-time integration; Monte Carlo simulation"
+
+      - name: Languages
+        icon: fa-solid fa-language
+        keywords: "English, Mandarin, German (basic)"
+
+    Interests:
+      - name: Outside research
+        icon: fa-solid fa-person-hiking
+        keywords: "Hiking, jogging, tennis, astrophotography, calligraphy"

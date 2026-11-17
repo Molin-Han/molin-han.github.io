@@ -1,0 +1,6 @@
+# Links co-author names in the publication list to a web page.
+# Keys are last names in lower case; `firstname` lists the forms used in _bibliography/papers.bib.
+
+"cotter":
+  - firstname: ["Colin", "C.", "C. J.", "Colin J."]
+    url: https://profiles.imperial.ac.uk/colin.cotter

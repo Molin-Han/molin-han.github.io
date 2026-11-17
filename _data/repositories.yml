@@ -1,0 +1,9 @@
+github_users:
+  - Molin-Han
+
+repo_description_lines_max: 2
+
+github_repos:
+  - Molin-Han/Boussinesq_implicit
+  - Molin-Han/Optimal_Control_ParaDiag
+  - Molin-Han/Firedrake_DG_transport

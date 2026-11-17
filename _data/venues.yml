@@ -1,0 +1,9 @@
+# Optional styling for the venue badges shown next to each publication.
+# Keys must match the `abbr` field of the entries in _bibliography/papers.bib, e.g.
+#
+# "MGG":
+#   url: https://journal-homepage.example   # makes the badge a link
+#   color: "#00369f"                                   # badge background
+#
+# Venues not listed here use the theme colour.
+{}

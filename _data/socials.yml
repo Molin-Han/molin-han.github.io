@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/Molin_Han_CV.pdf # path to your CV PDF file
+email: molin.han20@imperial.ac.uk # your email address
+orcid_id: 0009-0005-2172-6374 # your ORCID ID
+github_username: Molin-Han # your GitHub user name
+linkedin_username: molin-han # your LinkedIn user name
+# scholar_userid: # your Google Scholar ID, if you create a profile
