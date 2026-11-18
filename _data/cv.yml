@@ -3,7 +3,7 @@ cv:
   label: PhD student in computational mathematics
   email: molin.han20@imperial.ac.uk
   website: https://molin-han.github.io
-  summary: Third-year PhD student in computational mathematics at Imperial College London, developing finite element discretisations and robust iterative solvers for geophysical fluid dynamics, implemented as parallel code in Firedrake and PETSc. Research interests include finite element methods, fluid dynamics, numerical linear algebra and high-performance computing.
+  summary: Third-year PhD student in computational mathematics at Imperial College London, developing finite element discretisations and robust iterative solvers for geophysical fluid dynamics, implemented as parallel code in Firedrake and PETSc. Research interests include finite element methods, fluid dynamics, numerical linear algebra, high-performance computing, geometric mechanics and geotechnical engineering.
 
   social_networks:
     - network: GitHub
@@ -36,7 +36,8 @@ cv:
         start_date: "2020-10"
         end_date: "2024-06"
         highlights:
-          - Dean's List in all four years (top 5% of the cohort in Year 1, top 10% in Years 2 and 3).
+          - Dean's List in all four years (top 10% of the cohort each year).
+          - "Year marks: 83.5%, 82.5%, 87.9% and 85.3% (Years 1 to 4)."
           - "Computational and applied modules: Finite Elements (91%), Computational Linear Algebra (88%), Computational PDEs (78%), Fluid Dynamics 1 (90%) and 2 (80%), Classical Dynamics (100%), Optimisation (80%)."
           - "Probability and statistics modules: Stochastic Calculus and Applications to Nonlinear Filtering (95%), Introduction to SDEs and Diffusion Processes (92%), Stochastic Simulation (88%), Statistical Learning (79%)."
 
@@ -55,8 +56,11 @@ cv:
       - company: Department of Mathematics, Imperial College London
         position: Graduate Teaching Assistant
         location: London, UK
-        date: "2026"
-        summary: Year 2 Multivariable Calculus (Term 1) and Linear Algebra (Term 2).
+        start_date: "2024"
+        end_date: "2026"
+        summary: Year 1 Calculus and Applications, Introduction to Applied Mathematics; Year 2 Multivariable Calculus, Linear Algebra and Numerical Analysis.
+        highlights:
+          - Marked mid-term examinations and coursework, second-marked final examinations and invigilated final exams.
 
       - company: Imperial College London
         position: MSci research project
@@ -108,6 +112,12 @@ cv:
           - Contributed Monte Carlo simulations of the maximum inclination angle of a large tubular caisson.
           - The collaboration led to two co-authored journal papers.
 
+      - company: Private tuition
+        position: Part-time A-level tutor
+        start_date: "2020"
+        end_date: "2023"
+        summary: Taught A-level Mathematics and Physics weekly and supervised an EPQ project on the brachistochrone problem; the student went on to study Mechanical Engineering (MEng) at the University of Bristol.
+
     Volunteer:
       - company: Yunzhou International School
         position: Volunteer teaching assistant
@@ -120,7 +130,7 @@ cv:
       - title: Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning
         publisher: In preparation
         releaseDate: "2026"
-        summary: "**M. Han**, C. J. Cotter and J. Hope-Collins."
+        summary: "**M. Han**, J. Hope-Collins and C. J. Cotter."
 
       - title: Simulation of mechanical behavior of carbonate gravel with hybrid PSO–SVR algorithm
         publisher: Marine Georesources & Geotechnology 41(4), 446–459
@@ -179,4 +189,4 @@ cv:
     Interests:
       - name: Outside research
         icon: fa-solid fa-person-hiking
-        keywords: "Hiking, jogging, tennis, astrophotography, calligraphy"
+        keywords: "Hiking, jogging, tennis, cycling, astrophotography, calligraphy"
