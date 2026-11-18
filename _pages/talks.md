@@ -22,7 +22,8 @@ nav_order: 3
         <td>
           <strong>SciCADE 2026</strong>, International Conference on Scientific Computing and Differential Equations, Edinburgh, UK (29 June – 3 July 2026).<br>
           <em>Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning.</em><br>
-          Co-organised the mini-symposium <em>Iterative solution of implicit time stepping methods for PDEs</em> with Prof. Colin Cotter and chaired its second half.
+          Co-organised the mini-symposium <em>Iterative solution of implicit time stepping methods for PDEs</em> with Prof. Colin Cotter and chaired its second half.<br>
+          <a href="{{ '/assets/pdf/SciCADE_2026_certificate.pdf' | relative_url }}" target="_blank" rel="noopener">Certificate of attendance (PDF)</a>
         </td>
       </tr>
       <tr>

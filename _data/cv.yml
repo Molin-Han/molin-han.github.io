@@ -145,7 +145,7 @@ cv:
 
     Talks:
       - bullet: "**ICOSAHOM 2027**, Politecnico di Milano, July 2027. Mini-symposium talk (upcoming)."
-      - bullet: "**SciCADE 2026**, Edinburgh, July 2026. *Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning.* Co-organised the mini-symposium *Iterative solution of implicit time stepping methods for PDEs* with Prof. Colin Cotter and chaired its second half."
+      - bullet: "**SciCADE 2026**, Edinburgh, July 2026. *Iterative solvers for implicit discretisations of the Boussinesq system via patch-wise preconditioning.* Co-organised the mini-symposium *Iterative solution of implicit time stepping methods for PDEs* with Prof. Colin Cotter and chaired its second half. [Certificate of attendance](/assets/pdf/SciCADE_2026_certificate.pdf)."
       - bullet: "**PETSc Annual User Meeting and Firedrake '26**, Oxford, June 2026. *Robust preconditioning for the Boussinesq equations through patch-wise multigrid smoother.*"
       - bullet: "**Firedrake '25**, Leeds, September 2025. *A robust patch-wise preconditioner for mixed Poisson equations.*"
       - bullet: "**PinT 2025**, 14th Workshop on Parallel-in-Time Integration, ICMS Edinburgh, July 2025. Participant."
