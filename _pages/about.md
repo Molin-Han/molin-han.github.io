@@ -6,7 +6,7 @@ subtitle: PhD student in computational mathematics, <a href='https://www.imperia
 
 profile:
   align: right
-  image: Molin_Han_1.png # replace assets/img/prof_pic.jpg with your own photo
+  image: Molin_Han_2.jpg # replace assets/img/prof_pic.jpg with your own photo
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Mathematics</p>
